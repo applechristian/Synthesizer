@@ -7,26 +7,26 @@ import processing.sound.*;
 Env env;
 WhiteNoise noise;
 
-SinOsc a;  //a     remane to sin
+SinOsc a;  
 
-SawOsc aa;  //a    rename to saw
+SawOsc aa;  
 
-TriOsc aaa;  //a   rename to tri
+TriOsc aaa;  
 
 Sound s;
 
-LowPass lowPass;        //stay?
+LowPass lowPass;      
 HighPass highPass;
 BandPass bandPass;
 boolean Env=false;
-                                    // Make it available in top of functions with rename
+                                    
 boolean PitchMod = false;
 
 boolean Oct1=false;
 boolean Oct2=true;
 boolean Oct3=false;
 
-boolean Vibrato = false;        //
+boolean Vibrato = false;        
 boolean Sin = true;
 boolean Saw=false;
 boolean Tri=false;
