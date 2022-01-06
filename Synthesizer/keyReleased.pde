@@ -93,7 +93,7 @@ void keyReleased()
       aaa.stop();
       break;
     }
-  }                //end of switch
+  }                
   highPass.stop();
   lowPass.stop();
   bandPass.stop();
