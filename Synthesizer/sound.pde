@@ -4,7 +4,7 @@ void sound()
   
   if(keyPressed==true)
   {
-    if(key=='9')                                  // This lowers everything on the Envelope!
+    if(key=='9')                              
     {
       if(High)
       {
@@ -39,7 +39,7 @@ void sound()
         releaseTime=releaseTime - 0.001;
       }
     }                                                          
-    if(key=='0')                                //This raises everything on Envelope
+    if(key=='0')                                
     {
       if(High)
       {
@@ -73,7 +73,7 @@ void sound()
       {
         releaseTime=releaseTime + 0.001;
       }
-    }                            //end of 0
+    }                            
     if(key=='1')
     {
       Oct1 =true;
@@ -92,7 +92,7 @@ void sound()
       Oct2=false;
       Oct3=true;
     }
-    if(Oct1)                  //octaves of notes
+    if(Oct1)                
     {      
       if(PitchMod)
       {
@@ -198,7 +198,7 @@ void sound()
         K=1046.5;
       }
     }
-    // -------------------------------------------
+    
     if(Vibrato)   
     {
       if(count==0)
@@ -215,7 +215,7 @@ void sound()
       
     if(Sin)
     {
-      if(key=='a')    //note c
+      if(key=='a')   
       {
         a.play();
         a.freq(oct);
@@ -284,7 +284,7 @@ void sound()
     }  //end of Sin wave
     if(Saw)
     {
-      if(key=='a')    //note c
+      if(key=='a')    
       {
         aa.play();
         aa.freq(oct);
@@ -349,7 +349,7 @@ void sound()
         aa.play();
         aa.freq(oct+K);
       }
-    }                            // end of saw
+    }                            
     if(Tri)
     {
       if(key=='a')    //note c
@@ -419,7 +419,7 @@ void sound()
       }
     }          // end
   }
-  // ------------------ If one is true, the others are not!
+
   if(Sin)
   {
     Saw=false;
@@ -461,7 +461,7 @@ void sound()
   {
     if(Sin)
     {
-      lowPass.process(a);         //.process() is starting it. a = 
+      lowPass.process(a);        
     }
     if(Saw)
     {
@@ -504,5 +504,5 @@ void sound()
       bandPass.process(aaa,AB,BA);
     }
   }
-  allText();        //Just the rest
+  allText();      
 }
