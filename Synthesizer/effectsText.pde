@@ -17,17 +17,17 @@ void effectsText()
     fill(255);
     text("Vibrato", width/6.1, height/1.16);
   }
-  if(PitchMod)  //--------------------------------- button code
+  if(PitchMod)  
   {
     fill(0);
     rect(width/3.5, height/1.2, 200, 40);
-    fill(255);                                      //Text
-    text("Pitch Mod", width/3.35, height/1.16);                    //Text still
+    fill(255);                                      
+    text("Pitch Mod", width/3.35, height/1.16);                    
   }
   else
   {
-    fill(13, 132, 142);                            // Button box
-    rect(width/3.5, height/1.2, 200, 40);            // Button Box
+    fill(13, 132, 142);                            
+    rect(width/3.5, height/1.2, 200, 40);            
     fill(255);
     text("Pitch Mod", width/3.35, height/1.16);
     
