@@ -1,6 +1,5 @@
-//Dylan Drake and Christian Lee
-//Date Modified: 3/10/2020
-//AP Computer Science Principles
+//Christian Lee
+//3/10/2020
 //Sythesizer 
 
 import processing.sound.*;
